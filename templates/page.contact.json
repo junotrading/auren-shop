@@ -41,7 +41,7 @@
           "settings": {
             "text": "{{ closest.page.content }}",
             "width": "100%",
-            "max_width": "narrow",
+            "max_width": "normal",
             "alignment": "center",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -82,7 +82,6 @@
             "custom_width": 50,
             "width_mobile": "custom",
             "custom_width_mobile": 100,
-            "input_style": "default",
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -133,8 +132,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 32,
-        "padding-block-end": 84
+        "padding-block-start": 0,
+        "padding-block-end": 70
       }
     }
   },

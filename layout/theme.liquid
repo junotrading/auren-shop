@@ -48,6 +48,63 @@
     {% endif %}
 
     {{ content_for_header }}
+    <style>
+  @font-face {
+    font-family: 'Neue Haas Grotesk Text Round';
+    src: url('{{ "neuehaasgrottextround-55roman-trial.woff2" | asset_url }}') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Neue Haas Grotesk Text Round';
+    src: url('{{ "neuehaasgrottextround-56italic-trial.woff2" | asset_url }}') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Neue Haas Grotesk Text Round';
+    src: url('{{ "neuehaasgrottextround-65medium-trial.woff2" | asset_url }}') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Neue Haas Grotesk Text Round';
+    src: url('{{ "neuehaasgrottextround-66mediumitalic-trial.woff2" | asset_url }}') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Neue Haas Grotesk Text Round';
+    src: url('{{ "neuehaasgrottextround-75bold-trial.woff2" | asset_url }}') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Neue Haas Grotesk Text Round';
+    src: url('{{ "neuehaasgrottextround-76bolditalic-trial.woff2" | asset_url }}') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  body,
+  button,
+  input,
+  textarea,
+  select {
+    font-family: 'Neue Haas Grotesk Text Round', Helvetica, Arial, sans-serif !important;
+  }
+</style>
   </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
